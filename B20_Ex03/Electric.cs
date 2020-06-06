@@ -1,14 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Ex03.GarageLogic
 {
-    class Electric
+    public class Electric : EngineType
     {
+        public override float GetPercentagesOfEnergy()
+        {
+            return (MaxAmountOfEnergy / CurrentAmountOfEnergy) * 100;
+        }
 
+        public void ChargeCar(Vehicle i_NewVehicle, float i_AmountOfTime)
+        {
+            UpdateEnergy(i_AmountOfTime);
+            i_NewVehicle.UpdateEnergyPercent();
+        }
 
+        public override string ToString()
+        {
+            return string.Format(
+@"Battery running time left : {0}
+Max battery running time : {1}",
+CurrentAmountOfEnergy,
+MaxAmountOfEnergy);
+        }
     }
 }

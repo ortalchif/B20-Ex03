@@ -8,8 +8,8 @@ namespace Ex03.GarageLogic
     {
         public enum eType
         {
-            BikeOnFuel = 1,
-            BikeOnElectric,
+            MotorcycleOnFuel = 1,
+            MotorcycleOnElectric,
             CarOnFuel,
             CarOnElectric,
             Truck,
