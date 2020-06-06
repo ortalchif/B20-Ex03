@@ -41,14 +41,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
-    <Compile Include="ElectricCar.cs" />
-    <Compile Include="ElectricMotorcycle.cs" />
-    <Compile Include="Motorcycle.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Tires.cs" />
-    <Compile Include="Truck.cs" />
-    <Compile Include="Vehicle.cs" />
+    <Compile Include="UserInterface.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex03.ConsoleUI
 {
-    class ElectricMotorcycle
+    interface UserInterface
     {
     }
 }
