@@ -30,7 +30,6 @@ namespace Ex03.GarageLogic
             Five
         }
 
-
         public eColor Color
         {
             get
@@ -85,6 +84,21 @@ namespace Ex03.GarageLogic
                 EngineType.MaxAmountOfEnergy = k_MaxBatteryRunningTime;
             }
         }
-        
+
+        public override string ToString()
+        {
+            string result;
+
+            result = string.Format(
+@"{0}
+Car Color: {1}
+Car door quantity: {2}
+",
+VehicleDetails(),
+m_Color.ToString(),
+m_AmountOfDoors.ToString());
+
+            return result;
+        }
     }
 }
