@@ -38,5 +38,10 @@
     <Compile Include="Program.cs" />
     <Compile Include="UserInterface.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Ex03.GeneralLogic">
+      <HintPath>..\Ex03.GeneralLogic\bin\Debug\Ex03.GeneralLogic.dll</HintPath>
+    </Reference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

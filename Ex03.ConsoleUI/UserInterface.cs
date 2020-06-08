@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Reflection;
 using System.Threading;
-using Ex03.GarageLogic;
+using Ex03.GaragelLogic;
+
 
 namespace Ex03.ConsoleUI
 {
@@ -439,7 +440,7 @@ namespace Ex03.ConsoleUI
             }
             while (!isValid);
 
-            if (createdVehicle is Bike)
+            if (createdVehicle is Motorcycle)
             {
                 getEngineCapacity(createdVehicle);
                 getLicenseType(createdVehicle);
@@ -463,15 +464,15 @@ namespace Ex03.ConsoleUI
 
         private void getLicenseType(Vehicle i_Vehicle)
         {
-            Bike.eLisenceType lisenceType;
+            Motorcycle.eLisenceType lisenceType;
             bool isValid = true;
 
             do
             {
                 try
                 {
-                    lisenceType = (Bike.eLisenceType)getUserChoiceFromEnumValues(typeof(Bike.eLisenceType));
-                    r_Garage.InsertLicenseType((Bike)i_Vehicle, lisenceType);
+                    lisenceType = (Motorcycle.eLisenceType)getUserChoiceFromEnumValues(typeof(Motorcycle.eLisenceType));
+                    r_Garage.InsertLicenseType((Motorcycle)i_Vehicle, lisenceType);
                     isValid = true;
                 }
                 catch (FormatException ex)
@@ -504,7 +505,7 @@ namespace Ex03.ConsoleUI
                 {
                     Console.WriteLine("Enter engine capacity");
                     engineCapacity = Console.ReadLine();
-                    r_Garage.InsertEngineCapacity((Bike)i_Vehicle, engineCapacity);
+                    r_Garage.InsertEngineCapacity((Motorcycle)i_Vehicle, engineCapacity);
                     isValid = true;
                 }
                 catch (ValueOutOfRangeException ex)

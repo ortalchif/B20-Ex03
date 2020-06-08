@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Ex03.GaragelLogic;
 
-namespace Ex03.GarageLogic
+namespace Ex03.GaragelLogic
 {
     public class Car : Vehicle
     {

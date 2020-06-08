@@ -1,1 +1,7 @@
-C:\Users\ortal\source\repos\B20-Ex03\Ex03.GeneralLogic\obj\Debug\Ex03.GaragelLogic.csproj.CoreCompileInputs.cache
+C:\Users\מור טואיטו\source\repos\B20-Ex03\Ex03.GeneralLogic\obj\Debug\Ex03.GaragelLogic.csproj.CoreCompileInputs.cache
+C:\Users\מור טואיטו\source\repos\B20-Ex03\Ex03.GeneralLogic\obj\Debug\Ex03.GaragelLogic.csprojAssemblyReference.cache
+C:\Users\מור טואיטו\source\repos\B20-Ex03\Ex03.GeneralLogic\bin\Debug\Ex03.GeneralLogic.dll.config
+C:\Users\מור טואיטו\source\repos\B20-Ex03\Ex03.GeneralLogic\bin\Debug\Ex03.GeneralLogic.dll
+C:\Users\מור טואיטו\source\repos\B20-Ex03\Ex03.GeneralLogic\bin\Debug\Ex03.GeneralLogic.pdb
+C:\Users\מור טואיטו\source\repos\B20-Ex03\Ex03.GeneralLogic\obj\Debug\Ex03.GeneralLogic.dll
+C:\Users\מור טואיטו\source\repos\B20-Ex03\Ex03.GeneralLogic\obj\Debug\Ex03.GeneralLogic.pdb

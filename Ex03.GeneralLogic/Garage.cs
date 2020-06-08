@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ex03.GarageLogic
+namespace Ex03.GaragelLogic
 {
     public class Garage
     {
@@ -197,7 +197,7 @@ namespace Ex03.GarageLogic
             i_NewCar.Color = (Car.eColor)i_UserChoiceColor;
         }
 
-        public void InsertEngineCapacity(Bike i_NewBike, string i_EngineCapacity)
+        public void InsertEngineCapacity(Motorcycle i_NewBike, string i_EngineCapacity)
         {
             int engineCapacity;
 
@@ -215,7 +215,7 @@ namespace Ex03.GarageLogic
             }
         }
 
-        public void InsertLicenseType(Bike i_NewBike, Bike.eLisenceType i_LisenceType)
+        public void InsertLicenseType(Motorcycle i_NewBike, Motorcycle.eLisenceType i_LisenceType)
         {
             i_NewBike.LicenseType = i_LisenceType;
         }
