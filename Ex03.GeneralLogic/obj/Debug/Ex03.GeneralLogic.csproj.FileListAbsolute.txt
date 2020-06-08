@@ -2,3 +2,5 @@ C:\Users\מור טואיטו\source\repos\B20-Ex03\B20_Ex03\obj\Debug\Ex03.Gener
 C:\Users\מור טואיטו\source\repos\B20-Ex03\B20_Ex03\obj\Debug\Ex03.GeneralLogic.csproj.CoreCompileInputs.cache
 C:\Users\מור טואיטו\source\repos\B20-Ex03\Ex03.GeneralLogic\obj\Debug\Ex03.GeneralLogic.csprojAssemblyReference.cache
 C:\Users\מור טואיטו\source\repos\B20-Ex03\Ex03.GeneralLogic\obj\Debug\Ex03.GeneralLogic.csproj.CoreCompileInputs.cache
+C:\Users\ortal\source\repos\B20-Ex03\Ex03.GeneralLogic\obj\Debug\Ex03.GeneralLogic.csprojResolveAssemblyReference.cache
+C:\Users\ortal\source\repos\B20-Ex03\Ex03.GeneralLogic\obj\Debug\Ex03.GeneralLogic.csproj.CoreCompileInputs.cache

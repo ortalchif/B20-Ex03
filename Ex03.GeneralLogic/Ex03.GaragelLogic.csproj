@@ -43,12 +43,19 @@
     <Compile Include="EngineType.cs" />
     <Compile Include="Fuel.cs" />
     <Compile Include="Garage.cs" />
+    <Compile Include="Information.cs" />
     <Compile Include="Motorcycle.cs" />
     <Compile Include="Tire.cs" />
     <Compile Include="Truck.cs" />
     <Compile Include="ValueOutOfRangeException.cs" />
     <Compile Include="Vehicle.cs" />
     <Compile Include="VehicleCreate.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ex03.ConsoleUI\Ex03.ConsoleUI.csproj">
+      <Project>{a57b46c5-a708-46e6-81cd-a6224afb24ff}</Project>
+      <Name>Ex03.ConsoleUI</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

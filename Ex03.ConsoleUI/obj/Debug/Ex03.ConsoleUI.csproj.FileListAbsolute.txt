@@ -1,2 +1,4 @@
 C:\Users\מור טואיטו\source\repos\B20-Ex03\Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.csprojAssemblyReference.cache
 C:\Users\מור טואיטו\source\repos\B20-Ex03\Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\ortal\source\repos\B20-Ex03\Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.csprojResolveAssemblyReference.cache
+C:\Users\ortal\source\repos\B20-Ex03\Ex03.ConsoleUI\obj\Debug\Ex03.ConsoleUI.csproj.CoreCompileInputs.cache
